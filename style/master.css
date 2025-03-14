@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(330, 100%, 98%);
+    font-size: 16px;
+    box-sizing: border-box;
+    color: hsl(30, 10%, 34%);
+}
+.container{
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.silde img{
+    border-radius: 10px;
+    width: 100%;
+}
+.silde2 h1{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+.silde3{
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.silde3 h3{
+    color: hsl(332, 51%, 32%);
+    
+}
+
+.silde3 ul li{
+    padding: 10px;
+}
+strong{
+    color:hsl(24, 5%, 18%);
+}
+
+.slide4{
+    border-bottom: 2px  hsl(30, 18%, 87%) solid;
+    width: 100%;
+}
+.slide4 h3{
+   color: hsl(14, 45%, 36%);
+   font-size: 30px;
+}
+.slide4 li{
+    padding: 15px;
+    color: hsl(30, 10%, 34%);
+}
+.slide5{
+
+}
+.slide5 h3{
+    color: hsl(14, 45%, 36%);
+   font-size: 30px;
+}
+.slide5 div{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: auto auto auto auto;
+}
+.slide5 div p{
+    border-bottom: 2px  hsl(30, 18%, 87%) solid;
+    padding: 10px;
+}
+.slide5 div p span{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
